@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información de la IP del Cliente</title>
+
+    <!-- Enlace al archivo CSS de Bootstrap -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    
+    <style>
+        /* Estilo para filas intercaladas */
+        tbody tr:nth-child(even) {
+            background-color: #f2f2f2; /* Gris claro */
+        }
+    </style>
+</head>
+<body class="bg-light">
+
+    <div class="container mt-5">
+        <h2 class="text-center text-dark">Información de la IP del Cliente</h2>
+
+        <table class="table table-dark mt-3">
+            <thead>
+                <tr>
+                    <th scope="col">IP</th>
+                    <th scope="col">País</th>
+                    <th scope="col">Continente</th>
+                    <th scope="col">Zona Horaria</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td id="ip">-</td>
+                    <td id="pais">-</td>
+                    <td id="continente">-</td>
+                    <td id="zona_horaria">-</td>
+                </tr>
+                <!-- Puedes agregar más filas con datos de muestra aquí -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Enlace al archivo JavaScript de Bootstrap (opcional, pero a menudo necesario) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+
+    <script src="js/main.js" ></script>
+</body>
+</html>
+
